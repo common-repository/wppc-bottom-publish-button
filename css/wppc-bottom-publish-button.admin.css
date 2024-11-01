@@ -1,0 +1,64 @@
+#wppcbottompublishbutton {
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	text-align: right;
+	width: 100%;
+	z-index: 100;
+	display: none;
+}
+
+#wppcbottompublishbutton a.button-totop {
+	margin-right: 6px;
+}
+
+#wppcbottompublishbutton a.button-primary {
+	position: relative;
+}
+
+#wppcbottompublishbutton a.button-totop:before {
+	content: "\f342";
+	-webkit-font-smoothing: antialiased;
+	font: normal 12px/1 'dashicons';
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+	top: -1px;
+	right: 3px;
+}
+
+#wppcbottompublishbutton .button-previewchanges {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    position: relative;
+    margin-right: 6px;
+}
+
+#wppcbottompublishbutton .button-preview {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    position: relative;
+    margin-right: 6px;
+}
+
+#wppcbottompublishbutton .button-savedraft {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    position: relative;
+    margin-right: 6px;
+}
